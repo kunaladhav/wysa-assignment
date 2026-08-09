@@ -17,8 +17,6 @@ app.use(express.json());
 app.use(
   cors({
     origin: [
-      "https://prescripto-gamma-three.vercel.app",
-      "https://prescripto-oug2.vercel.app",
       "http://localhost:5173",
       "https://wysa-assignment-murex.vercel.app/",
     ],
