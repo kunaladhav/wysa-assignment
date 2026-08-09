@@ -20,6 +20,7 @@ app.use(
       "https://prescripto-gamma-three.vercel.app",
       "https://prescripto-oug2.vercel.app",
       "http://localhost:5173",
+      "https://wysa-assignment-murex.vercel.app/",
     ],
     methods: ["GET", "POST", "PUT", "PATCH", "DELETE", "OPTIONS"],
     allowedHeaders: ["Content-Type", "Authorization", "token"],
