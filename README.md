@@ -83,14 +83,14 @@ A therapist can:
 
 ```text
 Email: user1@gmail.com
-Password: <demo-password>
+Password: user1@123
 ```
 
 ### Therapist
 
 ```text
-Email: <therapist-email>
-Password: <demo-password>
+Email: rahul@test.com
+Password: 12345678
 ```
 
 > Demo credentials are provided separately for evaluation where required.
