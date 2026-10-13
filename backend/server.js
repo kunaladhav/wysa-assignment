@@ -13,7 +13,6 @@ connectDB();
 
 // Middlewares
 
-app.use(express.json());
 app.use(
   cors({
     origin: [
@@ -25,6 +24,8 @@ app.use(
     credentials: true,
   }),
 );
+
+app.use(express.json());
 
 // API Endpoints
 app.use("/api/user", userRouter);

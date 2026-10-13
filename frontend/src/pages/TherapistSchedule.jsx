@@ -143,7 +143,10 @@ const TherapistSchedule = () => {
           windows,
         },
         {
-          headers: { token },
+          headers: {
+            Authorization: `Bearer ${token}`, // ← Use standard header
+          },
+          withCredentials: true,
         },
       );
 

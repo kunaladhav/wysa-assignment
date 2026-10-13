@@ -50,10 +50,12 @@ const TherapistDashboard = () => {
   // --------------------------------------------------
 
   const updateStatus = async (appointmentId, status) => {
+    console.log("Token being send: ", token);
+
     try {
       setUpdatingId(appointmentId);
 
-      const { data } = await axios.patch(
+      const { data } = await axios.put(
         `${backendUrl}api/therapist/appointment-status`,
         {
           appointmentId,
